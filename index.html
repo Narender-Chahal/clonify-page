@@ -17,8 +17,8 @@
 
     <body class="clr_bg overflow-hidden">
         <div class="pre_loder">
-            <div class="d-flex align-items-center justify-content-center min-vh-100">
-                <h1>Welcome</h1>
+            <div class="d-flex align-items-center justify-content-end min-vh-100">
+                <h1 class="animation">Please wait....</h1>
             </div>
         </div>
         <!-- header -->
@@ -142,22 +142,7 @@
 
 
                                     <h3 class="ff_inter fw-semibold fs_xsm clr_brown pt-5">P A G E S</h3>
-                                    <!-- <div class="d-flex align-items-center justify-content-between mt-3">
-                                   
-                                    <div class="btn-group ">
 
-                                        <button type="button"
-                                            class="btn btn-sm btn-secondary dropdown-to ggle dropdown-toggle-split"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            <img src="/assets/img/png/dawn_arrow.png" alt="dawn_arrow.png">
-                                        </button>
-                                        <ul class="dropdown-menu transform">
-                                            <li class="ff_inter fw-semibold fs_sm clr_black">Analytics</li>
-                                            <li class="ff_inter fw-semibold fs_sm clr_lighterblack pt-2">Finance</li>
-                                            <li class="ff_inter fw-semibold fs_sm clr_lighterblack pt-2">Job Board</li>
-                                        </ul>
-                                    </div>
-                                </div> -->
                                     <div class="accordion-item mt-4">
                                         <h2 class="accordion-header" id="flush-headingfive">
                                             <button class="accordion-button collapsed" type="button"
@@ -219,9 +204,9 @@
                                 <hr class="  ">
                             </div>
                             <div class="d-flex justify-content-between align-items-center">
-                                <a href="#"><img src="/assets/img/png/Settings.png" alt="Settings.png"></a>
+                                <a class="" href="#"><img src="/assets/img/png/Settings.png" alt="Settings.png"></a>
                                 <a href="#"><img src="/assets/img/png/logout.png" alt="logout.png"></a>
-                                <a href="#"><img src="/assets/img/png/globe.png" alt="globe.png"></a>
+                                <a class="" href="#"><img src="/assets/img/png/globe.png" alt="globe.png"></a>
                             </div>
                         </aside>
                         <div class=" col-12 col-lg-9 p-0 ms-auto">
@@ -312,8 +297,8 @@
                                             <p class="ff_inter fw-normal fs_md mb-0">New Signups</p>
                                             <h2 class="ff_inter fw-semibold fs_xl pb-2 pt-1">116</h2>
                                             <div class="d-flex  align-items-center mt-4">
-                                                <button
-                                                    class="ff_inter fw-semibold fs_xsm clr_lighterblack dark_small_button small_button_padding">0.00</button>
+                                                <button class="ff_inter fw-semibold fs_xsm clr_lighterblack dark_small_button 
+                                                     small_button_padding">0.00</button>
 
                                             </div>
                                         </div>
@@ -566,7 +551,7 @@
         <script>setInterval(() => {
                 document.querySelector(".pre_loder").classList.add("top_100")
                 document.body.classList.remove("overflow-hidden")
-            }, 3000);</script>
+            }, 20000);</script>
     </body>
 
 </html>

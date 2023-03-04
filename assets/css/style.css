@@ -195,8 +195,7 @@ ul {
 .preformance_border {
     background: #FFFFFF;
     border-bottom: 1px solid #EAECF0;
-    /* padding: 16px 24px; */
-
+    border-radius: 12px 12px 0px 0px;
 }
 
 body {
@@ -284,6 +283,29 @@ body {
 
 .accordion-button {
     padding: 0;
+}
+
+.animation {
+    animation: scale 8s linear infinite;
+}
+
+@keyframes scale {
+    0% {
+        width: 100%;
+
+    }
+
+    30% {
+        transform: translateY(-50%);
+    }
+
+    50% {
+        width: 20%;
+    }
+
+    100% {
+        width: 100%;
+    }
 }
 
 .w_1200 {
