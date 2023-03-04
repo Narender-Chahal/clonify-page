@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.ff_inter {
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --clr-bg: #F2F4F7;
+    --clr-green: #20C997;
+    --clr-black: #282828;
+    --clr-lightblack: #5F6980;
+    --clr-brown: #9D9FA1;
+    --clr-red: #DC3545;
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 26px;
+    --fs-xxl: 28px;
+}
+
+.clr_red {
+    color: var(--clr-red);
+}
+
+.clr_bg {
+    background-color: var(--clr-bg);
+}
+
+.clr_green {
+    color: var(--clr-green);
+}
+
+.clr_black {
+    color: var(--clr-black);
+}
+
+.clr_lighterblack {
+    color: var(--clr-lightblack);
+}
+
+.clr_brown {
+    color: var(--clr-brown);
+}
+
+.bg_clr {
+    background: #F9FAFB;
+}
+
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs-xxl);
+}
