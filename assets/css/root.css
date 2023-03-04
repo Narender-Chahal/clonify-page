@@ -70,3 +70,20 @@
 .fs_xxl {
     font-size: var(--fs-xxl);
 }
+
+@media (max-width:576px) {
+    :root {
+        --clr-bg: #F2F4F7;
+        --clr-green: #20C997;
+        --clr-black: #282828;
+        --clr-lightblack: #5F6980;
+        --clr-brown: #9D9FA1;
+        --clr-red: #DC3545;
+        --fs-xsm: 12px;
+        --fs-sm: 14px;
+        --fs-md: 16px;
+        --fs-lg: 18px;
+        --fs-xl: 20px;
+        --fs-xxl: 22px;
+    }
+}
