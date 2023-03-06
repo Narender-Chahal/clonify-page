@@ -4,5 +4,3 @@ open_nav.addEventListener("click", function () {
     aside_bar.classList.toggle("left_0")
     document.body.classList.toggle("overflow_hidden")
 })
-
-// pre_loder
